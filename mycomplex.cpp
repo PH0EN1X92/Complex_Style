@@ -1,7 +1,8 @@
 #include<iostream>
-#include   <cmath>
+#include <cmath>
 #include "mycomplex.h"
 using namespace std;
+
 Complex ::Complex(double aRe  , double   aIm){   Re = aRe;   Im = aIm; }
 
 Complex ::  Complex(const Complex& aRval)
